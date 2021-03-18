@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CALCULADORA</title>
+    <link href="calculadora.css" rel="stylesheet" type="text/css" />
+    <script type="text/JavaScript" src="calculadora.js"></script>
+</head>
+
+<body>
+    <table id="calculadora">
+        <tr>
+            <td colspan="4">
+                <input type="text" id="pantalla" maxlength="20">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="Button" id="Dividir" value="/" onclick="operador(1)">
+            </td>
+            <td>
+                <input type="Button" id="Multiplicar" value="x" onclick="operador(2)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="Button" id="7" value="7" onclick="numero(7)">
+            </td>
+            <td>
+                <input type="Button" id="8" value="8" onclick="numero(8)">
+            </td>
+            <td>
+                <input type="Button" id="9" value="9" onclick="numero(9)">
+            </td>
+            <td>
+                <input type="Button" id="Restar" value="-" onclick="operador(3)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="Button" id="4" value="4" onclick="numero(4)">
+            </td>
+            <td>
+                <input type="Button" id="5" value="5" onclick="numero(5)">
+            </td>
+            <td>
+                <input type="Button" id="6" value="6" onclick="numero(6)">
+            </td>
+            <td>
+                <input type="Button" id="Sumar" value="+" onclick="operador(4)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="Button" id="1" value="1" onclick="numero(1)">
+            </td>
+            <td>
+                <input type="Button" id="2" value="2" onclick="numero(2)">
+            </td>
+            <td>
+                <input type="Button" id="3" value="3" onclick="numero(3)">
+            </td>
+            <td>
+                <input type="Button" id="Igual" value="=" onclick="igual()">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="Button" id="0" value="0" onclick="numero(0)">
+            </td>
+            <td>
+                <input type="Button" id="," value="," onclick="coma()">
+            </td>
+            <td>
+                <input type="Button" id="C" value="C" onclick="borrar()">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

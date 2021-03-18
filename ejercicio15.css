@@ -1,0 +1,98 @@
+#imagen1 {
+    background-image: url("imagenes/foto1.jpg");
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#imagen2 {
+    background-image: url("imagenes/foto2.jpg");
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#imagen3 {
+    background-image: url("imagenes/foto3.jpg");
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+#imagen4 {
+    background-image: url("imagenes/foto4.jpg");
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+#imagen5 {
+    background-image: url("imagenes/foto5.jpg");
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-top: 350px;
+    margin-left: 50px;
+}
+
+#imagen6 {
+    background-image: url("imagenes/foto6.jpg");
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-top: 350px;
+    margin-left: 200px;
+}
+
+#imagen7 {
+    background-image: url("imagenes/foto7.jpg");
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-top: 500px;
+    margin-left: 50px;
+}
+
+#imagen8 {
+    background-image: url("imagenes/foto8.jpg");
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-top: 500px;
+    margin-left: 200px;
+}
+
+#grande {
+    background-image: url("imagenes/foto8.jpg");
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 400px;
+}

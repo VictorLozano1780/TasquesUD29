@@ -1,0 +1,11 @@
+#reloj {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    width: 150px;
+    height: 30px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    font: bold 1.5em digital, arial;
+    text-align: center;
+}
